@@ -205,3 +205,50 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Generated plots and figures
+*.png
+convergence_comparison.png
+condition_number_sensitivity.png
+eigenvalue_distribution.png
+preconditioning_effect.png
+
+# Documentation and summary files
+KEY_FINDINGS.md
+REFACTORING_SUMMARY.md
+PAPER_IMPROVEMENTS.md
+FINAL_VERIFICATION.md
+CITATION_IMPROVEMENTS.md
+experimental_results_summary.txt
+
+# LaTeX auxiliary files (keep only .tex source and .pdf output)
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.ps
+*.bcf
+*.run.xml
+
+# BibTeX files (exclude bibliography)
+*.bib
+
+# LaTeX template files
+llncs.cls
+splncs04.bst
+
+# LaTeX temporary files
+.latexmkrc
+*.backup
+*~
